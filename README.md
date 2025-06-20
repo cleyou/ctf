@@ -1,2 +1,3 @@
-# ctf
-repo of public ctf I created
+# ctf - chall
+repo of ctf challenges I've created
+most are very simple
