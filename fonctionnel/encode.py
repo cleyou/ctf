@@ -9,8 +9,8 @@ def g(x):
 def h(x: str) -> List[int]:
     return list(map(lambda c: ord(c) + 1, x))
 
-def encrypt(clair: str) -> List[int]:
-    return f(g(h(clair)))
+def encrypt(clair: str) -> str:
+    return str(f(g(h(clair))))
 
 # encryptage
 crypte = encrypt(flag)
