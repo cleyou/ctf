@@ -15,8 +15,8 @@ il était donc très facile à trouver.
 Se connecter à un compte discord non-bot à partir de son token enfreint les CGU discord.
 C'est uniquement pour un challenge et pour des raisons pédagogique qu'on le fait ici.
 
-On se va à la [page web de login discord](https://discord.com/login)
-On injecte ce code javascript dans la console du navigateur (pour moi, `CTRL + SHIFT + K`).
+On va à la [page web de login discord](https://discord.com/login)
+On y injecte ce code javascript à l'aide de la console de notre navigateur (pour moi, `CTRL + SHIFT + K`).
 ```python
 setInterval(() => {
   document.body.appendChild(document.createElement`iframe`).contentWindow.localStorage.token = `"TOKEN"`;
@@ -26,5 +26,5 @@ setTimeout(() => {
   location.reload();
 }, 100);
 ```
-On est connecté dans le compte discord.
+Résultat : on est connecté au compte.
 On accède à la description du profil, qui contient le flag. 
