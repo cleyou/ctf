@@ -1,5 +1,3 @@
-from functools import reduce
-from operator import xor
 from typing import List
 
 def f(x: List[int]) -> List[int]:
@@ -16,5 +14,4 @@ def encrypt(clair: str) -> List[int]:
 
 # encryptage
 crypte = encrypt(flag)
-# resultat = 
-# [84, 30, 28, 31, 30, 28, 74, 31, 30, 28, 27, 31, 30, 28, 31, 30, 74, 89, 122, 83, 74, 81, 72, 86, 95, 64, 4, 76, 76, 64, 94, 76]
+# resultat = 8430283130287431302827313028313074891228374817286956447676649476
