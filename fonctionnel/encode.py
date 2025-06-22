@@ -11,10 +11,10 @@ def g(x: List[int]) -> List[int]:
 def h(x: str) -> List[int]:
     return list(map(lambda c: ord(c) + 1, x))
 
-def encrypt(plain: str) -> List[int]:
-    return f(g(h(plain)))
+def encrypt(clair: str) -> List[int]:
+    return f(g(h(clair)))
 
-# Try it
-ciphertext = encrypt(flag)
-# ciphertext = 
+# encryptage
+crypte = encrypt(flag)
+# resultat = 
 # [84, 30, 28, 31, 30, 28, 74, 31, 30, 28, 27, 31, 30, 28, 31, 30, 74, 89, 122, 83, 74, 81, 72, 86, 95, 64, 4, 76, 76, 64, 94, 76]
