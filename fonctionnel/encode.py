@@ -10,7 +10,7 @@ def h(x: str) -> List[int]:
     return list(map(lambda c: ord(c) + 1, x))
 
 def encrypt(clair: str) -> str:
-    return str(f(g(h(clair))))
+    return "".join(map(str,(f(g(h(clair))))))
 
 # encryptage
 crypte = encrypt(flag)
