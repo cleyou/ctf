@@ -3,7 +3,7 @@ from typing import List
 def f(x: List[int]) -> List[int]:
     return list(map(lambda c: c ^ 42, x))
 
-def g(x: List[int]) -> List[int]:
+def g(x):
     return list(reversed(x))
 
 def h(x: str) -> List[int]:
